@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Montserrat&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow: hidden;
+}
+.App {
+  font-family: "Anton", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+
+#bgVid {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: -1;
+}
+#bgVid::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #1b1b1b;
+  opacity: 0.8;
+}
+/* .content::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 15000;
+  top: 0;
+  background-size: 4px;
+  pointer-events: none;
+  background: repeating-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.4) 1px,
+    transparent 1px,
+    transparent 2px
+  );
+  opacity: 0.4;
+} */
+
+.pages {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+}

@@ -1,0 +1,21 @@
+.homeWrapper {
+  font-size: 9rem;
+}
+.homeContent {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+.myName p {
+  color: yellow;
+  line-height: 140px;
+}
+.myName h6 {
+  font-family: "Anton", sans-serif;
+  font-weight: 100;
+  letter-spacing: 10px;
+  font-size: 37px;
+  text-align: right;
+  line-height: 0.5;
+  color: #00ccff;
+}

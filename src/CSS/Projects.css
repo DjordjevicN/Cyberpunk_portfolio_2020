@@ -1,0 +1,19 @@
+.projectsWrapper {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.project1Image {
+  width: 85%;
+}
+.projectBlock {
+  display: flex;
+  justify-content: space-between;
+}
+.projectsContent {
+  width: 73%;
+  margin-left: 100px;
+}
+.project1Image {
+}

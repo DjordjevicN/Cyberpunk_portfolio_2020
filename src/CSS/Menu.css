@@ -1,0 +1,56 @@
+.menuWrapper {
+  position: fixed;
+  top: 30%;
+}
+.menuContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.menuTab {
+  cursor: pointer;
+  padding: 0 20px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.menuTab img {
+  width: 7px;
+}
+.nameTag {
+  color: aqua;
+  font-weight: 400;
+  font-size: 18px;
+  opacity: 0;
+  position: relative;
+  bottom: 33px;
+  left: 0px;
+  transition: 0.3s;
+}
+.menuTab:hover {
+  padding: 0 90px 0 0;
+  border: 2px solid aqua;
+  border-radius: 0px 0px 8px 0px;
+  background-color: rgba(0, 0, 0, 0.527);
+
+  -webkit-box-shadow: inset 0 0 20px #00ccff;
+  -moz-box-shadow: inset 0 0 20px #00ccff;
+  box-shadow: inset 0 0 20px #00ccff;
+}
+.menuTab:hover .nameTag {
+  opacity: 1;
+  bottom: 33px;
+  left: 60px;
+}
+.pageNumber {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.menuTitle {
+  background-color: violet;
+  transform: rotate(-90deg);
+  display: block;
+}

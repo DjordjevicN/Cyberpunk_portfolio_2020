@@ -1,0 +1,43 @@
+.skillsContent {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  width: 100%;
+}
+.skillsInformation {
+  width: 60%;
+
+  display: grid;
+  place-items: center;
+}
+.skillsBGImage {
+  width: 100%;
+}
+.skillsText {
+  width: 50%;
+  position: absolute;
+  margin: 90px 60px;
+}
+.skillsText h3 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: white;
+  /* font-family: "Dirga"; */
+}
+.skillsLogo {
+  width: 40px;
+}
+.skillsItem {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.skillsLogoAdditional {
+  width: 50px;
+  padding-left: 40px;
+}
+.skillsItem p {
+  font-family: "Montserrat", sans-serif;
+  padding-left: 20px;
+  color: yellow;
+}
